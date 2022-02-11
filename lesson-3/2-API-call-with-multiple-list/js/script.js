@@ -16,7 +16,7 @@ async function getPokemonsNames() {
     const result = responseJSON.results;
 
     for (let i = 0; i < result.length; i++) {
-      pokeContainer.innerHTML += `<li><span><a href="pokemon-details.html?name=${result[i].name}">${result[i].name} 🐱‍🚀</a></span></li>`;
+      pokeContainer.innerHTML += `<li><span><a href="pokemon-details.html?name=${result[i].name}">${result[i].name} 🐱‍🐉</a></span></li>`;
     }
   } catch (error) {
     pokeLoading.style.display = "none";
